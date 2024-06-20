@@ -1,4 +1,4 @@
-# Resonance Rift
+# Creating Sound Installations with Unity and Max: Resonance Rift
 
 ## About
 **Resonance Rift** is an audio-based game developed as a semester project for Virtual Acoustic Reality (Winter Semester 2023/24) at the Audio Communication Group at TU Berlin. The game provides an immersive ambisonic sound experience, where players navigate dark, foggy mountain ridges guided by audio signals, amidst the distraction of wandering boids.
