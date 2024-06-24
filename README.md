@@ -13,7 +13,7 @@
 ## Contents of the GitHub Repo
 - **C# Files for Integrating Headtracker and OSC into Unity**: These scripts demonstrate how to use extOSC to send messages between Unity and Max and to integrate OSC, as well as the combined Mouse/Headphone Input. 
 - **Max/MSP Patcher**: Includes spat5 integration to simulate boids, encode, and decode in the HOA (Higher-Order Ambisonics) domain.
-- **Unity Project Folder**: Download the entire folder from [this link]().
+- **Unity Project Folder**: Download the entire folder from [this link](https://drive.google.com/drive/folders/17RPBBuXkqqB8YIoX0OZ1CD__UXu3OOF_?usp=sharing).
 
 ### Creative Concept
 Resonance Rift integrates the participant's ability to move freely within a 3D virtual space using a head tracker for orientation, resulting in audio experiences that respond dynamically in real-time to their movements and interactions with boids. Participants can influence the soundscape through their movements and interactions, shaping their auditory journey through the virtual world. The flocking behavior is central to gameplay, requiring players to maneuver through tight spaces and avoid obstacles. The closer the flock gets to an obstacle, the more hectic and crammed everything becomes, challenging the player to maintain control over the sonic environment. The goal is to develop adaptive soundscapes that dynamically respond to the participant's movements and interactions with virtual boids and obstacles. As the participant explores the virtual space, the behavior of the boids and the characteristics of the soundscape evolve in real-time, creating a responsive audio experience. Moving through different areas of the environment triggers changes in the density and distribution of boids, leading to corresponding shifts in the sonic landscape. 
@@ -39,7 +39,7 @@ The movements of participants control the behavior of virtual boids, which in tu
   - Encountering obstacles: Higher grain densities create dense and intricate soundscapes.
   - Tranquil moments: Lower densities provide contrast and relief.
 
-Every grain of sound is represented by a sound particle moving in space. The integration between the characteristics of the particle swarm and the parameters of the granular synthesizer creates a responsive musical instrument, similar to the concept explored by Antonino Modica in the project "Critical Mass" (https://github.com/antoninomodica/critical-mass). 
+Every grain of sound is represented by a sound particle moving in space. The integration between the characteristics of the particle swarm and the parameters of the granular synthesizer creates a responsive musical instrument, similar to the concept explored by Antonino Modica in the project ["Critical Mass"](https://github.com/antoninomodica/critical-mass). 
 
 ## HOA Processing in MAX: 
 
