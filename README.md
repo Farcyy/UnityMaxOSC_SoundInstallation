@@ -1,5 +1,7 @@
 # Resonance Rift: Creating 3D surround sound Installations with Unity and Max
 
+![Screenshot of the Max Patcher](https://raw.githubusercontent.com/Farcyy/UnityMaxOSC_SoundInstallation/main/IMAGES/MAX_GUI.png)
+
 ## About
 **Resonance Rift** is an audio-based game developed as a semester project for Virtual Acoustic Reality (Winter Semester 2023/24) at the Audio Communication Group at TU Berlin. The game provides an immersive ambisonic sound experience, where players navigate dark, foggy mountain ridges guided by audio signals, amidst the distraction of wandering boids. For Installation, please see the end of this README
 
@@ -11,10 +13,12 @@
 ## Contents of the GitHub Repo
 - **C# Files for Integrating Headtracker and OSC into Unity**: These scripts demonstrate how to use extOSC to send messages between Unity and Max and to integrate OSC, as well as the combined Mouse/Headphone Input. 
 - **Max/MSP Patcher**: Includes spat5 integration to simulate boids, encode, and decode in the HOA (Higher-Order Ambisonics) domain.
-- **Unity Project Folder**: Download the entire folder from [this link]().
+- **Unity Project Folder**: Download the entire folder from [this link](https://drive.google.com/drive/folders/17RPBBuXkqqB8YIoX0OZ1CD__UXu3OOF_?usp=sharing).
 
 ### Creative Concept
 Resonance Rift integrates the participant's ability to move freely within a 3D virtual space using a head tracker for orientation, resulting in audio experiences that respond dynamically in real-time to their movements and interactions with boids. Participants can influence the soundscape through their movements and interactions, shaping their auditory journey through the virtual world. The flocking behavior is central to gameplay, requiring players to maneuver through tight spaces and avoid obstacles. The closer the flock gets to an obstacle, the more hectic and crammed everything becomes, challenging the player to maintain control over the sonic environment. The goal is to develop adaptive soundscapes that dynamically respond to the participant's movements and interactions with virtual boids and obstacles. As the participant explores the virtual space, the behavior of the boids and the characteristics of the soundscape evolve in real-time, creating a responsive audio experience. Moving through different areas of the environment triggers changes in the density and distribution of boids, leading to corresponding shifts in the sonic landscape. 
+
+![Screenshot of In-Game Scenes](https://raw.githubusercontent.com/Farcyy/UnityMaxOSC_SoundInstallation/main/IMAGES/InGameTakes.png)
 
 - **Boids**: The game leverages the concept of boids—algorithmic models of bird flocking behavior—to create dynamic soundscapes. Boids simulate the natural movement of flocks, creating an evolving and unpredictable auditory experience. By opening the GUI in the Granulator section you can see the BOIDS position in the room section.
 - **Granular Synthesizer**: A granular synthesizer implemented from the Spat Library breaks down sound samples into small "grains" and then recombines them in various ways to create new textures and timbres. This method allows for intricate manipulation of sound, producing unique and complex auditory experiences.
@@ -35,7 +39,7 @@ The movements of participants control the behavior of virtual boids, which in tu
   - Encountering obstacles: Higher grain densities create dense and intricate soundscapes.
   - Tranquil moments: Lower densities provide contrast and relief.
 
-Every grain of sound is represented by a sound particle moving in space. The integration between the characteristics of the particle swarm and the parameters of the granular synthesizer creates a responsive musical instrument, similar to the concept explored by Antonino Modica in the project "Critical Mass" (https://github.com/antoninomodica/critical-mass). 
+Every grain of sound is represented by a sound particle moving in space. The integration between the characteristics of the particle swarm and the parameters of the granular synthesizer creates a responsive musical instrument, similar to the concept explored by Antonino Modica in the project ["Critical Mass"](https://github.com/antoninomodica/critical-mass). 
 
 ## HOA Processing in MAX: 
 
