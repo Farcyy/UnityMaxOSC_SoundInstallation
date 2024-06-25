@@ -5,12 +5,14 @@
 ## About
 **Resonance Rift** is an audio-based game developed as a semester project for Virtual Acoustic Reality (Winter Semester 2023/24) at the Audio Communication Group at TU Berlin. The game provides an immersive ambisonic sound experience, where players navigate dark, foggy mountain ridges guided by audio signals, amidst the distraction of wandering boids. For Installation, please see the end of this README
 
+Please see our Demo on [YouTube](https://www.youtube.com/watch?v=b3z25Ze0cUQ)
+
 ## Aims
 1. **Example for a Ambisonics Soundscape in Unity:** To create an affordable alternative for integrating ambisonics in Unity using Cycling '74 Max and the spat5 library. The game communicates with Max via OSC (Open Sound Control), featuring a musical backbone based on boids, soundscapes, and granular synthesis of samples from Gregorian choirs.
 2. **Multimodal Audio-centred Input System:** To integrate Supperware's Headtracker into Unity, enabling seamless control with head movements and mouse integration. This system also integrates well with the Input System for [Unity Starter Assets Pack](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526), making it particularly useful for audio-centered games.
 3. **Realtime Measurement Integration:** To develop real-time measurement in Unity for calculating reverb and delay modulations (currently in development).
 
-## Contents of the GitHub Repo
+## Contents of the Repo
 - **C# Files for Integrating Headtracker and OSC into Unity**: These scripts demonstrate how to use extOSC to send messages between Unity and Max and to integrate OSC, as well as the combined Mouse/Headphone Input. 
 - **Max/MSP Patcher**: Includes spat5 integration to simulate boids, encode, and decode in the HOA (Higher-Order Ambisonics) domain.
 - **Unity Project Folder**: Download the entire folder from [this link](https://drive.google.com/drive/folders/17RPBBuXkqqB8YIoX0OZ1CD__UXu3OOF_?usp=sharing).
