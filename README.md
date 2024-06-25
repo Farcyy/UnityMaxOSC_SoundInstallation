@@ -74,6 +74,6 @@ Good to know:
 ### Starting the Game
 1. Start the Max Patcher
 2. Calibrate the Headtracker (by double clicking the Head Symbol in BridgeHead)
-3. Starting the Unity Scene
+3. Starting the Unity Scene and controll with w a s d (move), shift (speed), space (jump) + mouse/ trackpad and headtracker
 
 Enjoy your audio journey with **Resonance Rift**!
